@@ -1,0 +1,125 @@
+<records>
+    
+    <record id="services">
+        <caption_>
+            Services
+        </caption_>
+        <service id="service_client">
+            <name>View the KPLC Data</name>
+            <button> 
+                <a class='option' href='ebill_lovinah.php'>View E-bills</a>
+            </button>
+            <button>
+                <a class='option' href='ebill_Gloria.php'>View E-bills Shared</a>
+            </button>
+            <button>
+                <a class='option' href='eaccount.php'>View E-accounts</a>
+            </button>
+            <button>
+                <a class='option' href='msg.php'>View Requests from 95551 and Bills from KPLC</a>
+            </button>
+        </service>
+        
+        <service id="service_water">
+            <name>Water Readings</name>
+            <button>
+            <a class="option" href="wreading.php?dbname=mutallco_rental">
+                Monitor Daily Water Consumption</a>
+            </button>
+            <button>
+            <a class="option" href="wreading_record.php?dbname=mutallco_rental">
+                Add New Water Readings
+            </a>
+            </button>
+            <button>
+            <a class="option" href="wcharge.php?dbname=mutallco_rental">
+                Calculate Current Water Charges
+            </a> 
+            </button>    
+        </service>
+                <service id="service_payment">
+            <name>Payment Management</name>
+            <button>
+            <a class="option" href="payment.php?dbname=mutallco_rental&amp;tname=payment">
+                Enter Payments</a>
+            </button>
+            <button>
+            <a class="option" href="balance_initial.php?dbname=mutallco_rental&amp;tname=balance_initial">
+                Enter Balance
+            </a>
+            </button>
+            <button>
+            <a class="option" href="adjustment.php?dbname=mutallco_rental&amp;tname=adjustment">
+                Enter Adjustements
+            </a>
+            </button>
+           
+        </service>
+
+        <service id="service_statements">
+            <name>Client Invoices/Statements</name>
+            <button>
+            <a class="option" href="http://mutall.co.ke/development/mutall_rental/normal.php?class=poster_mutall&amp;method=display&amp;layout=layout_mutall&amp;level=detailed">
+                View Invoices and Statements </a>
+            </button>
+        </service>
+
+        <!--service id="service_">
+            <h3></h3>
+            Example from <a href=''></a>
+        </service-->
+
+
+    </record>
+
+    <record id="clients">
+        <caption_>
+            Clients
+        </caption_>
+        <tagline>
+        
+        </tagline>    
+
+    </record>
+    
+    
+    <record id="staff">     
+        <caption_>
+            Staff
+        </caption_>
+        <tagline>
+        </tagline>
+
+    </record>
+     
+    
+    <record id="contacts">
+        <caption_>
+            Contacts
+        </caption_>
+        <tagline class="funds_flex">
+            
+            <p class="contactflex1">
+                Our offices are located at Mutall Business Center which is along Magata Road on the 
+                entry of Kiseria central business district. Kiseria is a small growing town in Kajiado
+                characterized by a significant number of small business enterprises that are our primary interest.
+                The town is in the heart of Kajiado and a junction between major
+                towns. It provides all a meeting point for business, family outings and other activities.<br/>
+                <b>Find us on:</b><br/>
+                <b>Call us on :-</b> 0700000000<br/>
+                <b>Email:-</b> admin@mutall.co.ke<br/>
+                <b>website:-</b> http://mutall.co.ke
+                
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6707.955598854458!2d36.6884214645245!3d-1.430845091021402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0131c033b1ef%3A0x569be8715ba7ec81!2sMutall+Business+Centre!5e0!3m2!1ssw!2ske!4v1529315656375" width="700" height="450" frameborder="0" style="border:0" allowfullscreen="true" class="contactflex"/> 
+            <ul class="contactflex2">
+                <li><img src="pictures/facebook.png" alt=""/></li>
+                <li><img src="pictures/twitter.png" alt=""/></li>
+                <li><img src="pictures/linkedin.png" alt=""/></li>
+                <li><img src="pictures/google.png" alt=""/></li>
+            </ul>
+        </tagline>
+    </record>
+    
+    
+</records>

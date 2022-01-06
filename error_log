@@ -1,0 +1,186 @@
+[09-May-2019 08:28:08 UTC] PHP Fatal error:  Cannot redeclare invoice\check() 
+(previously declared in /home/mutallco/public_html/development/mutall_rental/normal.php:37) 
+in /home/mutallco/public_html/development/mutall_rental/normal.php on line 45
+[10-May-2019 08:04:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as year,  as month from client where client.client = 'test' and true' at line 1 in /home/mutallco/public_html/development/library/invoice/items/item.php:252
+Stack trace:
+#0 /home/mutallco/public_html/development/library/invoice/items/item.php(252): PDOStatement->execute(Array)
+#1 /home/mutallco/public_html/development/library/invoice/items/item_invoice.php(60): invoice\item->chk('select client.c...')
+#2 /home/mutallco/public_html/development/library/invoice/items/item.php(104): invoice\item_invoice->detailed_poster(true, true)
+#3 /home/mutallco/public_html/development/library/invoice/classes.php(865): invoice\item->prepare_statements()
+#4 /home/mutallco/public_html/development/library/invoice/classes.php(884): invoice\invoice->initialize('layout_mutall', 'detailed', NULL)
+#5 /home/mutallco/public_ in /home/mutallco/public_html/development/library/invoice/items/item.php on line 252
+[10-May-2019 08:05:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as year,  as month from client where client.client = 'test' and true' at line 1 in /home/mutallco/public_html/development/library/invoice/items/item.php:252
+Stack trace:
+#0 /home/mutallco/public_html/development/library/invoice/items/item.php(252): PDOStatement->execute(Array)
+#1 /home/mutallco/public_html/development/library/invoice/items/item_invoice.php(60): invoice\item->chk('select client.c...')
+#2 /home/mutallco/public_html/development/library/invoice/items/item.php(104): invoice\item_invoice->detailed_poster(true, true)
+#3 /home/mutallco/public_html/development/library/invoice/classes.php(865): invoice\item->prepare_statements()
+#4 /home/mutallco/public_html/development/library/invoice/classes.php(884): invoice\invoice->initialize('layout_mutall', 'detailed', NULL)
+#5 /home/mutallco/public_ in /home/mutallco/public_html/development/library/invoice/items/item.php on line 252
+[10-May-2019 08:05:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as year,  as month from client where client.client = 'test' and true' at line 1 in /home/mutallco/public_html/development/library/invoice/items/item.php:252
+Stack trace:
+#0 /home/mutallco/public_html/development/library/invoice/items/item.php(252): PDOStatement->execute(Array)
+#1 /home/mutallco/public_html/development/library/invoice/items/item_invoice.php(60): invoice\item->chk('select client.c...')
+#2 /home/mutallco/public_html/development/library/invoice/items/item.php(104): invoice\item_invoice->detailed_poster(true, true)
+#3 /home/mutallco/public_html/development/library/invoice/classes.php(865): invoice\item->prepare_statements()
+#4 /home/mutallco/public_html/development/library/invoice/classes.php(884): invoice\invoice->initialize('layout_mutall', 'detailed', NULL)
+#5 /home/mutallco/public_ in /home/mutallco/public_html/development/library/invoice/items/item.php on line 252
+[10-May-2019 08:08:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as month from client where client.client = 'test' and true' at line 1 in /home/mutallco/public_html/development/library/invoice/items/item.php:252
+Stack trace:
+#0 /home/mutallco/public_html/development/library/invoice/items/item.php(252): PDOStatement->execute(Array)
+#1 /home/mutallco/public_html/development/library/invoice/items/item_invoice.php(60): invoice\item->chk('select client.c...')
+#2 /home/mutallco/public_html/development/library/invoice/items/item.php(104): invoice\item_invoice->detailed_poster(true, true)
+#3 /home/mutallco/public_html/development/library/invoice/classes.php(865): invoice\item->prepare_statements()
+#4 /home/mutallco/public_html/development/library/invoice/classes.php(884): invoice\invoice->initialize('layout_mutall', 'detailed', 'false')
+#5 /home/mutallco/public_html/de in /home/mutallco/public_html/development/library/invoice/items/item.php on line 252
+[10-May-2019 09:16:25 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:16:25 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:16:25 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:16:25 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:17:18 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:17:18 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:17:18 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:17:18 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 304
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 304
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 304
+[10-May-2019 09:31:02 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:12 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:12 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:12 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[10-May-2019 09:31:12 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[13-May-2019 20:14:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as year,  as month from client where client.client = 'test' and true' at line 1 in /home/mutallco/public_html/development/library/invoice/items/item.php:252
+Stack trace:
+#0 /home/mutallco/public_html/development/library/invoice/items/item.php(252): PDOStatement->execute(Array)
+#1 /home/mutallco/public_html/development/library/invoice/items/item_invoice.php(60): invoice\item->chk('select client.c...')
+#2 /home/mutallco/public_html/development/library/invoice/items/item.php(104): invoice\item_invoice->detailed_poster(true, true)
+#3 /home/mutallco/public_html/development/library/invoice/classes.php(865): invoice\item->prepare_statements()
+#4 /home/mutallco/public_html/development/library/invoice/classes.php(884): invoice\invoice->initialize('layout_mutall', 'detailed', NULL)
+#5 /home/mutallco/public_ in /home/mutallco/public_html/development/library/invoice/items/item.php on line 252
+[13-May-2019 20:15:57 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[13-May-2019 20:15:57 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[13-May-2019 20:15:57 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[13-May-2019 20:15:57 UTC] PHP Notice:  Undefined index: name in /home/mutallco/public_html/development/library/invoice/classes.php on line 73
+[04-Jun-2019 11:51:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method invoice\poster_mutall::Un-Post() in /home/mutallco/public_html/development/library/invoice/classes.php:784
+Stack trace:
+#0 /home/mutallco/public_html/development/mutall_rental/index.php(23): invoice\page::index('/home/mutallco/...')
+#1 {main}
+  thrown in /home/mutallco/public_html/development/library/invoice/classes.php on line 784
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 09:59:26 UTC] PHP Notice:  Undefined index: quarterly in /home/mutallco/public_html/development/mutall_rental/model/invoice/classes.php on line 278
+[20-Jun-2019 10:00:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method invoice\report_mutall::Un-Post() in /home/mutallco/public_html/development/library/invoice/classes.php:770
+Stack trace:
+#0 /home/mutallco/public_html/development/mutall_rental/index.php(23): invoice\page::index('/home/mutallco/...')
+#1 {main}
+  thrown in /home/mutallco/public_html/development/library/invoice/classes.php on line 770
